@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "titulo": { "type": "string" },
+      "descricao": { "type": "string" },
+      "concluida": { "type": "boolean" }
+    },
+    "required": ["id", "titulo", "descricao", "concluida"]
+  }
+  

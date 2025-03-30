@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tarefas>
+  <tarefa>
+    <id>1</id>
+    <titulo>Primeira tarefa</titulo>
+    <descricao>Exemplo inicial em XML</descricao>
+    <concluida>false</concluida>
+  </tarefa>
+</tarefas>

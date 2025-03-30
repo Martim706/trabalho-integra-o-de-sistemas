@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service TarefaService {
+  rpc ObterTarefa (TarefaRequest) returns (TarefaReply);
+}
+
+message TarefaRequest {
+  int32 id = 1;
+}
+
+message TarefaReply {
+  int32 id = 1;
+  string titulo = 2;
+  string descricao = 3;
+  bool concluida = 4;
+}
+
